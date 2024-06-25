@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "terraform-nils"
+    bucket  = "tf-nils"
     prefix  = "terraform/state"
   }
 }
